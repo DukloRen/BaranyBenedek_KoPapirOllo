@@ -54,14 +54,14 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this,"Döntetlen",Toast.LENGTH_SHORT).show();
                 }
                 else if (computerChoice==1){
-                    Toast.makeText(MainActivity.this,"A gép nyerte a kört",Toast.LENGTH_SHORT).show();
                     computer++;
+                    Toast.makeText(MainActivity.this,"A gép nyerte a kört",Toast.LENGTH_SHORT).show();
                     score.setText("Eredmény: Ember: "+ember+" Computer: "+computer);
                     gameControl();
                 }
                 else{
-                    Toast.makeText(MainActivity.this,"Te nyerted a kört",Toast.LENGTH_SHORT).show();
                     ember++;
+                    Toast.makeText(MainActivity.this,"Te nyerted a kört",Toast.LENGTH_SHORT).show();
                     score.setText("Eredmény: Ember: "+ember+" Computer: "+computer);
                     gameControl();
                 }
@@ -85,11 +85,13 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this,"Döntetlen",Toast.LENGTH_SHORT).show();
                 }
                 else if (computerChoice==2){
+                    computer++;
                     Toast.makeText(MainActivity.this,"A gép nyerte a kört",Toast.LENGTH_SHORT).show();
                     score.setText("Eredmény: Ember: "+ember+" Computer: "+computer);
                     gameControl();
                 }
                 else{
+                    ember++;
                     Toast.makeText(MainActivity.this,"Te nyerted a kört",Toast.LENGTH_SHORT).show();
                     score.setText("Eredmény: Ember: "+ember+" Computer: "+computer);
                     gameControl();
@@ -114,11 +116,13 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this,"Döntetlen",Toast.LENGTH_SHORT).show();
                 }
                 else if (computerChoice==0){
+                    computer++;
                     Toast.makeText(MainActivity.this,"A gép nyerte a kört",Toast.LENGTH_SHORT).show();
                     score.setText("Eredmény: Ember: "+ember+" Computer: "+computer);
                     gameControl();
                 }
                 else{
+                    ember++;
                     Toast.makeText(MainActivity.this,"Te nyerted a kört",Toast.LENGTH_SHORT).show();
                     score.setText("Eredmény: Ember: "+ember+" Computer: "+computer);
                     gameControl();
